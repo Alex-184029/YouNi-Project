@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+.first{
+  background-color:aliceblue;
+  padding:50rpx;
+  display:flex;
+  flex-direction:row;
+}
+
+.second{
+  display:flex;
+  flex-direction:column;
+  margin:40rpx;
+}
+
+.third{
+  height:130rpx;
+  width:130rpx;
+  margin:5rpx;
+}
+
+.fourth{
+  color:black;
+  margin:5rpx;
+  font-size:32rpx;
+}
+
+.pic{
+  width:750rpx;
+  height:450rpx;
+}

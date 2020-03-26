@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/tsjy",
+    "pages/index/zygx",
+    "pages/index/wwjh",
+    "pages/me/me",
+    "pages/friends/friends",
+    "pages/setting/setting"
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#FF6666",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+     "list":[
+       {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath":"images/house.jpg",
+          "selectedIconPath":"images/house.jpg"
+       },
+       {
+        "pagePath": "pages/friends/friends",
+        "text": "好友",
+        "iconPath":"images/friends.jpg",
+        "selectedIconPath":"images/friends.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath":"images/me.jpg",
+        "selectedIconPath":"images/me.jpg"
+
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath":"images/setting.jpg"
+      }
+     ] 
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "邮你",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

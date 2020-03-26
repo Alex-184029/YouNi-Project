@@ -1,0 +1,4 @@
+<!--index/wwjh.wxml-->
+<view class='container'>
+<view>Hello World ! 1</view>
+</view>

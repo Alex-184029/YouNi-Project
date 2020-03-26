@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view style='display:flex;flex-direction:column;'>
+  <view class='first'>
+    <view class='second'>
+      <image src='../../images/objects2.jpg' class='third' bindtap='wwjh'></image>
+      <text class='fourth'>物物交换</text>
+    </view>
+    <view class='second'>
+      <image src='../../images/books1.jpg' class='third' bindtap='tsjy'></image>
+      <text class='fourth'>图书交易</text>
+    </view>
+    <view class='second'>
+      <image src='../../images/lianjie1.jpg' class="third" bindtap='zygx'></image>
+      <text class='fourth'>资源共享</text>
+    </view>
+  </view>
+  <image src='../../images/bupt.jpg' class='pic'></image>
+
+</view>

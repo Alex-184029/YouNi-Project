@@ -1,0 +1,35 @@
+/* me.wxss */
+.me1{
+margin:50rpx;
+background-color:aliceblue;
+display:flex;
+flex-direction:row;
+}
+.me2{
+  height:200rpx;
+  width:200rpx;
+}
+.me3{
+  margin:30rpx;
+  display:flex;
+  flex-direction:column;
+}
+.me4{
+  font-size:40rpx;
+}
+.me5{
+  background-color:blanchedalmond;
+  border-style:dashed;
+  border-radius:10rpx;
+}
+.me6{
+  margin:5rpx;
+}
+.nicheng{
+  font-size:26rpx;
+}
+.me7{
+  display:flex;
+  flex-direction:column;
+  margin:50rpx;
+}
