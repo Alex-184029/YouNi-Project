@@ -1,0 +1,21 @@
+<!--me.wxml-->
+<view style='display:flex;flex-direction:column;flex-wrap:wrap;'>
+  <view class='me1'>
+    <view class='me7'>
+      <image src='../../images/touxiang.jpg' class='me2' bindtap='sethead'></image>
+      <text class='nicheng'>(点击设置头像）</text>
+    </view>
+   <view class='me3'>
+      <text class='me4'>个人信息</text>
+      <view class='me5'>
+        <input class='me6' type='text' bindinput='bindKeyInput1' confirm-type='done' maxlength='10' placeholder='昵称:' placeholder-style="font-size:30rpx"/>
+         <input class='me6' type='text' bindinput='bindKeyInput2' confirm-type='done' maxlength='10' placeholder='学院:' placeholder-style="font-size:30rpx"/>
+          <input class='me6' type='number' bindinput='bindKeyInput3' confirm-type='done' maxlength='10' placeholder='手机号：' placeholder-style="font-size:30rpx"/>
+      </view>  
+   </view>
+  </view>
+</view>
+
+
+
+

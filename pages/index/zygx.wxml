@@ -1,0 +1,4 @@
+<!--index/zygx.wxml-->
+<view class='container'>
+<view>Hello World ! 3</view>
+</view>

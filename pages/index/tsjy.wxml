@@ -1,0 +1,4 @@
+<!--tsjy.wxml-->
+<view class='container'>
+<view>Hello World ! 2</view>
+</view>

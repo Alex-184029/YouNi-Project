@@ -1,0 +1,29 @@
+//app.js
+App({
+"pages":[
+"pages/index/index",
+"pages/logs/logs"],
+"window":{
+  "backgroundColor":"#F6F6F6",
+  "navigationBarBackgroundColor":"#F6F6F6",
+  "navigationBarTittleText":"因为邮你，世界如此美好！",
+  "navigationBarTextStyle":"black"
+},
+"tarBar":{
+  "list":[
+    {
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }
+  ]
+},
+"networkTimeout":{
+  "request":10000,
+  "downloadFile":10000
+},
+"debug":true
+})
